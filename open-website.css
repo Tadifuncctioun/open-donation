@@ -431,11 +431,11 @@ body {
     }
     /*/////////////////////////////////////////////////*/
     .toggle-button {
-        display: none;
+        display: flex;
     }
     /*/////////////////////////////////////////////////*/
     .header-links {
-        display: flex;
+        display: none;
         width: auto;
     }
     .header-links ul {
@@ -495,12 +495,29 @@ body {
 }
 
 @media (min-width:1281px) {
-
-
-
-
-
-
+      .header {
+        flex-direction: ;
+        align-items: ;
+    }
+    /*/////////////////////////////////////////////////*/
+    .toggle-button {
+        display: none;
+    }
+    /*/////////////////////////////////////////////////*/
+    .header-links {
+        display: flex;
+        width: ;
+    }
+    .header-links ul {
+        flex-direction: ;
+    }
+    .header-links li {
+        background-color: ;
+    }
+    .header-links li a {
+        padding: ;
+    }
+    /*/////////////////////////////////////////////////*/
     .content {
 
     }
